@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+body{
+    background: rgb(40, 150, 200);
+}
+
+h1{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.section{
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.719);
+}
+
+.container-section{
+    text-align: center;
+    /* padding: 25px; */
+}
+
+input{
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type=button]{
+    font-size: 20px;
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+label, p{
+    font-size: 25px;
+}
+
+.resultado{
+    font-size: 25px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 700px){
+    h1{
+        font-size: 55px;
+    }
+
+    .section{
+        padding: 15px;
+        width: 500px;
+    }
+
+    input{
+        font-size: 30px;
+    }
+
+    input[type=button]{
+        font-size: 25px;
+    }
+
+    label, p{
+        font-size: 30px;
+    }
+
+    .resultado{
+        font-size: 30px;
+    }
+
+    #foto{
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 530px){
+    h1{
+        font-size: 52px;
+    }
+
+    .section{
+        padding: 15px;
+        width: 400px;
+    }
+
+    input{
+        font-size: 30px;
+    }
+
+    input[type=radio]{
+        width: 24px;;
+        height: 24px;;
+    }
+
+    input[type=button]{
+        font-size: 35px;
+    }
+
+    label, p{
+        font-size: 33px;
+    }
+
+    .resultado{
+        font-size: 35px;
+    }
+
+    #foto{
+        width: 350px;
+    }
+
+}
+
+ @media screen and (max-width: 430px){
+    h1{
+        font-size: 40px;
+    }
+
+    .section{
+        padding: 15px;
+        width: 300px;
+    }
+
+    input{
+        font-size: 20px;
+        
+    }
+
+    input[type=radio]{
+        width: 15px;;
+        height: 15px;;
+    }
+
+    input[type=button]{
+        font-size: 20px;
+        mask-type: number;
+    }
+
+    label, p{
+        margin-bottom: 15px;
+        font-size: 23px;
+    }
+
+    .resultado{
+        font-size: 25px;
+    }
+
+    #foto{
+        width: 250px;
+    }
+
+} 
