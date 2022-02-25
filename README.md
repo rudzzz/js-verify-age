@@ -1,6 +1,11 @@
 # js-verify-age
-A project where you put your birth year and it will tell your age along with a photo of someone around that age
 
+## 🇧🇷
+Projeto que conforme sua idade retorna uma foto de uma pessoa de idade aproximatamente igual a sua.
+Você pode conferir clicando no link: https://rudzzz.github.io/js-verify-age/
+
+## 🇺🇸
+A project where you put your birth year and it will tell your age along with a photo of someone around that age
 You can check it out by clicking in this link: https://rudzzz.github.io/js-verify-age/
 
 ##
